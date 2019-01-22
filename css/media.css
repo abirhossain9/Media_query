@@ -1,0 +1,44 @@
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320.98px)
+{
+ h1{
+ color: green;
+ }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 321px) and (max-width: 575.98px)
+{ 
+h1{
+	color: black;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h1
+	{
+		color: blue;
+	}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	h1{
+		color: red;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1{
+		color: gold;
+	}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1{
+		color:pink;
+	}
+
+}
